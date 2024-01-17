@@ -11,7 +11,7 @@ const {
 // router.get("/api/goals", getAllGoals);
 // router.post("/api/goals", createGoal);
 
-router.route('/n').get(getAllGoals).post(createGoal)
+router.route('/').get(getAllGoals).post(createGoal)
 
 // router.get("/api/goals/:goalId", getAGoal);
 // router.patch("/api/goals/:goalId", updateGoal);
